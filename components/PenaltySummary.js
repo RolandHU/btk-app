@@ -74,7 +74,7 @@ export default function PenaltySummary({ penalties, data, func }) {
           <div>
             <p className="pb-1 pt-3 text-sm uppercase text-slate-400 font-semibold">max. letöltendő</p>
             <div className="px-5 py-2.5 border-t-2 border-slate-600 text-3xl text-cyan-600 font-bold">
-              <p>{func.penalties.map(p => p.MinJail).reduce((sum, n) => sum + n, 0)}p</p>
+              <p>{func.penalties.map(p => p.MaxJail).reduce((sum, n) => sum + n, 0)}p</p>
             </div>
           </div>
         </div>
