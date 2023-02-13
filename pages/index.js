@@ -14,6 +14,23 @@ export default function Home({ data }) {
     setPenalties([...penalties, p])
   }
 
+  function removePenalty(p) {
+    const obj = penalties.find(pa => pa.Paragraph === p.Paragraph)
+    if (!obj) return
+    const list = [...penalties]
+    list.splice(list.indexOf(obj), 1)
+    setPenalties(list)
+  }
+
+  function deletePenalty(p) {
+    const list = [...penalties]
+    setPenalties(list.filter(l => l.Paragraph !== p.Paragraph))
+  }
+
+  function resetPenalties() {
+    setPenalties([])
+  }
+
   function changePenaltyState(p) {
     if (!penaltyState.includes(p)) return setPenaltyState([...penaltyState, p])
     const list = [...penaltyState]
@@ -31,10 +48,10 @@ export default function Home({ data }) {
       </Head>
       <div className="bg-slate-900 text-slate-300">
         <div className="relative w-full flex">
-          <PenaltySummary penalties={penalties} data={data} func={addPenalty} />
+          <PenaltySummary penalties={penalties} data={data} func={{penalties, addPenalty, removePenalty, deletePenalty, resetPenalties}} />
           <main className="w-full max-h-screen flex flex-1 flex-col gap-10 p-10 overflow-auto">
-            <div className="w-full lg:w-4/5 m-auto">
-              {Object.keys(data).map(k => <PenaltyCategory key={uuid4()} title={k} data={data[k]} func={{penaltyState, changePenaltyState, addPenalty}} />)}              
+            <div className="w-full max-w-7xl m-auto">
+              {Object.keys(data).map(k => <PenaltyCategory key={uuid4()} title={k} data={data[k]} func={{penalties, penaltyState, changePenaltyState, addPenalty, removePenalty}} />)}              
             </div>
           </main>
         </div>            
