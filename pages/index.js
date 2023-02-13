@@ -1,10 +1,26 @@
 import path from "path"
 import fs from "fs"
 import { v4 as uuid4 } from "uuid"
+import { useState } from "react";
 import Head from "next/head"
+import PenaltySummary from "@/components/PenaltySummary"
 import PenaltyCategory from "@/components/PenaltyCategory"
 
 export default function Home({ data }) {
+  const [ penalties, setPenalties ] = useState([])
+  const [ penaltyState, setPenaltyState ] = useState([])
+
+  function addPenalty(p) {
+    setPenalties([...penalties, p])
+  }
+
+  function changePenaltyState(p) {
+    if (!penaltyState.includes(p)) return setPenaltyState([...penaltyState, p])
+    const list = [...penaltyState]
+    list.splice(list.indexOf(p), 1)
+    return setPenaltyState(list)    
+  }
+
   return (
     <>
       <Head>
@@ -14,9 +30,14 @@ export default function Home({ data }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="bg-slate-900 text-slate-300">
-        <main className="w-full max-w-5xl flex flex-col gap-10 p-10 mx-auto">
-          {Object.keys(data).map(k => <PenaltyCategory key={uuid4()} title={k} data={data[k]} />)}
-        </main>        
+        <div className="relative w-full flex">
+          <PenaltySummary penalties={penalties} data={data} func={addPenalty} />
+          <main className="w-full max-h-screen flex flex-1 flex-col gap-10 p-10 overflow-auto">
+            <div className="w-full lg:w-4/5 m-auto">
+              {Object.keys(data).map(k => <PenaltyCategory key={uuid4()} title={k} data={data[k]} func={{penaltyState, changePenaltyState, addPenalty}} />)}              
+            </div>
+          </main>
+        </div>            
       </div>
     </>
   )
