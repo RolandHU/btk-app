@@ -1359,6 +1359,7 @@
     "Paragraph": "96 §",
     "Name": "Illegális Fegyvertár Birtoklása",
     "MinTicket": 18000,
+    "MaxTicket": 18000,
     "MinJail": 30,
     "MaxJail": 90,
     "ID": "ITB",
