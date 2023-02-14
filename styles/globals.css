@@ -19,8 +19,3 @@
 ::-webkit-scrollbar-thumb:hover {
   background: slategray;
 }
-
-details {
-  content-visibility: auto;
-  contain-intrinsic-size: auto 500px;
-}
