@@ -52,32 +52,12 @@ export default function PenaltySummary({ penalties, data, func }) {
             </svg>
           </div>     
         </div>
-        <div className="md:columns-2">
-          <div>
-            <p className="pb-1 text-sm uppercase text-slate-400 font-semibold">min. büntetés</p>
-            <div className="px-5 py-2.5 border-t-2 border-slate-600 text-3xl text-cyan-600 font-bold">
-              <p>${formatter.format(func.penalties.map(p => p.MinTicket).reduce((sum, n) => sum + n, 0))}</p>
-            </div>
-          </div>
-          <div>
-            <p className="pb-1 pt-3 text-sm uppercase text-slate-400 font-semibold">max. büntetés</p>
-            <div className="px-5 py-2.5 border-t-2 border-slate-600 text-3xl text-cyan-600 font-bold">
-              <p>${formatter.format(func.penalties.map(p => p.MaxTicket).reduce((sum, n) => sum + n, 0))}</p>
-            </div>
-          </div>
-          <div>
-            <p className="pb-1 text-sm uppercase text-slate-400 font-semibold">min. letöltendő</p>
-            <div className="px-5 py-2.5 border-t-2 border-slate-600 text-3xl text-cyan-600 font-bold">
-              <p>{func.penalties.map(p => p.MinJail).reduce((sum, n) => sum + n, 0)}p</p>
-            </div>
-          </div>
-          <div>
-            <p className="pb-1 pt-3 text-sm uppercase text-slate-400 font-semibold">max. letöltendő</p>
-            <div className="px-5 py-2.5 border-t-2 border-slate-600 text-3xl text-cyan-600 font-bold">
-              <p>{func.penalties.map(p => p.MaxJail).reduce((sum, n) => sum + n, 0)}p</p>
-            </div>
-          </div>
-        </div>
+        <footer className="grid grid-cols-2 gap-3">
+          <p className="border border-slate-600 px-5 py-2 rounded-md"><b className="text-sm uppercase text-slate-400 font-semibold">min. büntetés</b><br/><span className="text-3xl text-cyan-600 font-bold">${formatter.format(func.penalties.map(p => p.MinTicket).reduce((sum, n) => sum + n, 0))}</span></p>
+          <p className="border border-slate-600 px-5 py-2 rounded-md"><b className="text-sm uppercase text-slate-400 font-semibold">max. büntetés</b><br/><span className="text-3xl text-cyan-600 font-bold">${formatter.format(func.penalties.map(p => p.MaxTicket).reduce((sum, n) => sum + n, 0))}</span></p>
+          <p className="border border-slate-600 px-5 py-2 rounded-md"><b className="text-sm uppercase text-slate-400 font-semibold">min. letöltendő</b><br/><span className="text-3xl text-cyan-600 font-bold">{func.penalties.map(p => p.MinJail).reduce((sum, n) => sum + n, 0)}p</span></p>
+          <p className="border border-slate-600 px-5 py-2 rounded-md"><b className="text-sm uppercase text-slate-400 font-semibold">max. letöltendő</b><br/><span className="text-3xl text-cyan-600 font-bold">{func.penalties.map(p => p.MaxJail).reduce((sum, n) => sum + n, 0)}p</span></p>
+        </footer>
       </main>    
     </>
   )
