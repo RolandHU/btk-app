@@ -1,4 +1,6 @@
-export default function Penalty({ data, func }) {
+import { memo } from "react"
+
+function Penalty ({ data, func }) {
   const formatter = Intl.NumberFormat('en', { notation: 'compact' })
 
   return (
@@ -20,3 +22,5 @@ export default function Penalty({ data, func }) {
     </details>
   )
 }
+
+export default Penalty = memo(Penalty)

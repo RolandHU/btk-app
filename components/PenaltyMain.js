@@ -1,7 +1,8 @@
 import { v4 as uuid4 } from "uuid"
+import { memo } from "react"
 import Penalty from "./Penalty"
 
-export default function PenaltyMain({ elem, data, func }) {
+function PenaltyMain({ elem, data, func }) {
   return (
     <details className="border border-slate-700 rounded-md overflow-clip" open={func.penaltyState.includes(elem.Paragraph)}>
       <summary className="list-none">
@@ -13,3 +14,5 @@ export default function PenaltyMain({ elem, data, func }) {
     </details>
   )
 }
+
+export default PenaltyMain = memo(PenaltyMain)

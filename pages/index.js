@@ -1,7 +1,7 @@
 import path from "path"
 import fs from "fs"
 import { v4 as uuid4 } from "uuid"
-import { useState } from "react";
+import { useCallback, useState } from "react";
 import Head from "next/head"
 import PenaltySummary from "@/components/PenaltySummary"
 import PenaltyCategory from "@/components/PenaltyCategory"
@@ -31,12 +31,12 @@ export default function Home({ data }) {
     setPenalties([])
   }
 
-  function changePenaltyState(p) {
+  const changePenaltyState = useCallback((p) => {
     if (!penaltyState.includes(p)) return setPenaltyState([...penaltyState, p])
     const list = [...penaltyState]
     list.splice(list.indexOf(p), 1)
     return setPenaltyState(list)    
-  }
+  })
 
   return (
     <>

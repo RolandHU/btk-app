@@ -1,8 +1,9 @@
 import { v4 as uuid4 } from "uuid"
+import { memo } from "react"
 import Penalty from "./Penalty"
 import PenaltyMain from "./PenaltyMain"
 
-export default function PenaltyCategory({ title, data, func }) {    
+function PenaltyCategory({ title, data, func }) {    
   return (
     <section>
       <h1 className="pl-5 py-10 text-5xl font-bold text-pink-700 break-words">{title}</h1>
@@ -20,3 +21,5 @@ export default function PenaltyCategory({ title, data, func }) {
     </section>
   )
 }
+
+export default PenaltyCategory = memo(PenaltyCategory)
