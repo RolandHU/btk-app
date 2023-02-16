@@ -24,7 +24,7 @@ function PenaltySummary({ data, goToPenalty, deletePenalty, resetPenalties }) {
       <header className={`p-5 ${state ? "border-r border-slate-700 bg-slate-800" : null}`} onClick={() => setState(!currState)}>
         {state ? <MdClose className="cursor-pointer" size={"24px"} /> : <MdMenu className="cursor-pointer" size={"24px"} />}
       </header>
-      <section className={`w-full flex-1 ${currState ? "flex" : "hidden"} flex-col border-r border-slate-700 bg-slate-800`}>
+      <section className={`w-full flex-1 ${currState ? "flex" : "hidden"} flex-col border-r border-slate-700 bg-slate-800 overflow-clip`}>
         <main className="relative flex flex-col flex-1 border-y border-slate-700 text-xl overflow-auto">
           {Object.keys(penaltyList).map(penalty => {
             const obj = JSON.parse(penalty)
