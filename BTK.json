@@ -1089,7 +1089,7 @@
   },
   {
     "Paragraph": "78.1§",
-    "Name": "  -Kisérlete",
+    "Name": "Kisérlete",
     "MinTicket": 10000,
     "MaxTicket": 40000,
     "MinJail": 30,
@@ -1099,7 +1099,7 @@
   },
   {
     "Paragraph": "78.2§",
-    "Name": "  -Gondatlanságból Elkövetett Emberölés",
+    "Name": "Gondatlanságból Elkövetett Emberölés",
     "MinTicket": 15000,
     "MaxTicket": 50000,
     "MinJail": 60,
@@ -1109,7 +1109,7 @@
   },
   {
     "Paragraph": "78.3§",
-    "Name": "  -Előre Megtervezett Gyilkosság",
+    "Name": "Előre Megtervezett Gyilkosság",
     "MinTicket": 25000,
     "MaxTicket": 70000,
     "MinJail": 90,
@@ -1119,7 +1119,7 @@
   },
   {
     "Paragraph": "78.4§",
-    "Name": "  -Hivatali Személy Elleni Gyilkosság",
+    "Name": "Hivatali Személy Elleni Gyilkosság",
     "MinTicket": 35000,
     "MaxTicket": 90000,
     "MinJail": 120,
@@ -1129,7 +1129,7 @@
   },
   {
     "Paragraph": "78.5§",
-    "Name": "  -Terrorcselekményhez Fűződő Merénylet",
+    "Name": "Terrorcselekményhez Fűződő Merénylet",
     "MinTicket": 45000,
     "MaxTicket": 110000,
     "MinJail": 150,
@@ -1140,7 +1140,7 @@
   },
   {
     "Paragraph": "78.6§",
-    "Name": "  -Különösen Visszaeső Által",
+    "Name": "Különösen Visszaeső Által",
     "MinTicket": 30000,
     "MaxTicket": 100000,
     "MinJail": 120,

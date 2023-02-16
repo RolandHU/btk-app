@@ -5,6 +5,7 @@ import { useCallback, useState } from "react";
 import Head from "next/head"
 import PenaltySummary from "@/components/PenaltySummary"
 import PenaltyCategory from "@/components/PenaltyCategory"
+import Search from "@/components/Search"
 
 export default function Home({ data }) {
   const [ penalties, setPenalties ] = useState([])
@@ -51,16 +52,19 @@ export default function Home({ data }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="bg-slate-900 text-slate-300">
+      <main className="text-lg text-slate-300 bg-slate-900">
         <div className="relative w-full flex">
-          <PenaltySummary data={penalties} goToPenalty={goToPenalty} deletePenalty={deletePenalty} resetPenalties={resetPenalties} />
+          <PenaltySummary data={data} penalties={penalties} goToPenalty={goToPenalty} deletePenalty={deletePenalty} resetPenalties={resetPenalties} />
           <main className="w-full max-h-screen flex flex-1 flex-col gap-10 p-10 overflow-auto">
-            <div className="w-full max-w-7xl m-auto">
+            <div className="relative w-full max-w-7xl m-auto">
+              <div className="sticky top-0 w-full border border-slate-700 rounded-md bg-slate-800">
+                <Search data={data} goToPenalty={goToPenalty} />                
+              </div>
               {Object.keys(data).map(k => <PenaltyCategory key={uuid4()} title={k} data={data[k]} func={{penalties, penaltyState, changePenaltyState, addPenalty, removePenalty}} />)}              
             </div>
           </main>
         </div>            
-      </div>
+      </main>
     </>
   )
 }

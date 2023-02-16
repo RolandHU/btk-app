@@ -1,15 +1,16 @@
 import { useState, useMemo, useCallback, memo } from "react"
 import { v4 as uuid4 } from "uuid"
+import Search from "./Search"
 import { MdMenu, MdClose, MdFileCopy, MdDelete } from "react-icons/md"
 
-function PenaltySummary({ data, goToPenalty, deletePenalty, resetPenalties }) {
+function PenaltySummary({ data, penalties, goToPenalty, deletePenalty, resetPenalties }) {
   const penaltyList = {}
   const formatter = Intl.NumberFormat('en', { notation: 'compact' })
 
   const [ state, setState ] = useState(false)
   const currState = useMemo(() => state)
 
-  useMemo(() => {data.map(p => {
+  useMemo(() => {penalties.map(p => {
     if (Object.keys(penaltyList).includes(JSON.stringify(p))) penaltyList[JSON.stringify(p)] += 1
     else penaltyList[JSON.stringify(p)] = 1
   })})
@@ -20,11 +21,16 @@ function PenaltySummary({ data, goToPenalty, deletePenalty, resetPenalties }) {
   }, [penaltyList])
 
   return (
-    <main className={`absolute md:relative ${currState ? "w-screen md:w-2/5 md:max-w-2xl" : "w-0"} h-screen flex flex-col`}>
-      <header className={`p-5 ${state ? "border-r border-slate-700 bg-slate-800" : null}`} onClick={() => setState(!currState)}>
+    <main className={`absolute z-10 md:relative ${currState ? "w-screen md:w-2/5 md:max-w-2xl" : "w-0"} h-screen flex flex-col`}>
+      <header className={`p-5 ${state ? "border-r border-b border-slate-700 bg-slate-800" : null}`} onClick={() => setState(!currState)}>
         {state ? <MdClose className="cursor-pointer" size={"24px"} /> : <MdMenu className="cursor-pointer" size={"24px"} />}
       </header>
       <section className={`w-full flex-1 ${currState ? "flex" : "hidden"} flex-col border-r border-slate-700 bg-slate-800 overflow-clip`}>
+        <header className="z-10 w-full p-5">
+          <div className="w-full border border-slate-700 rounded-md">
+            <Search data={data} goToPenalty={goToPenalty} />
+          </div>
+        </header>
         <main className="relative flex flex-col flex-1 border-y border-slate-700 text-xl overflow-auto">
           {Object.keys(penaltyList).map(penalty => {
             const obj = JSON.parse(penalty)
@@ -43,10 +49,10 @@ function PenaltySummary({ data, goToPenalty, deletePenalty, resetPenalties }) {
           </div>
         </main>
         <footer className="grid grid-cols-2">
-          <p className="px-5 py-3 border-t border-r border-slate-700"><b className="text-sm uppercase text-slate-400 font-semibold">min. büntetés</b><br/><span className="text-3xl text-cyan-600 font-bold">${formatter.format(data.map(d => d.MinTicket).reduce((sum, n) => sum + n, 0))}</span></p>
-          <p className="px-5 py-3 border-t border-l border-slate-700"><b className="text-sm uppercase text-slate-400 font-semibold">max. büntetés</b><br/><span className="text-3xl text-cyan-600 font-bold">${formatter.format(data.map(d => d.MaxTicket).reduce((sum, n) => sum + n, 0))}</span></p>
-          <p className="px-5 py-3 border-t border-r border-slate-700"><b className="text-sm uppercase text-slate-400 font-semibold">min. letöltendő</b><br/><span className="text-3xl text-cyan-600 font-bold">{data.map(d => d.MinJail).reduce((sum, n) => sum + n, 0)}p</span></p>
-          <p className="px-5 py-3 border-t border-l border-slate-700"><b className="text-sm uppercase text-slate-400 font-semibold">max. letöltendő</b><br/><span className="text-3xl text-cyan-600 font-bold">{data.map(d => d.MaxJail).reduce((sum, n) => sum + n, 0)}p</span></p>
+          <p className="px-5 py-3 border-t border-r border-slate-700"><b className="text-sm uppercase text-slate-400 font-semibold">min. büntetés</b><br/><span className="text-3xl text-cyan-600 font-bold">${formatter.format(penalties.map(p => p.MinTicket).reduce((sum, n) => sum + n, 0))}</span></p>
+          <p className="px-5 py-3 border-t border-l border-slate-700"><b className="text-sm uppercase text-slate-400 font-semibold">max. büntetés</b><br/><span className="text-3xl text-cyan-600 font-bold">${formatter.format(penalties.map(p => p.MaxTicket).reduce((sum, n) => sum + n, 0))}</span></p>
+          <p className="px-5 py-3 border-t border-r border-slate-700"><b className="text-sm uppercase text-slate-400 font-semibold">min. letöltendő</b><br/><span className="text-3xl text-cyan-600 font-bold">{penalties.map(p => p.MinJail).reduce((sum, n) => sum + n, 0)}p</span></p>
+          <p className="px-5 py-3 border-t border-l border-slate-700"><b className="text-sm uppercase text-slate-400 font-semibold">max. letöltendő</b><br/><span className="text-3xl text-cyan-600 font-bold">{penalties.map(p => p.MaxJail).reduce((sum, n) => sum + n, 0)}p</span></p>
         </footer>
       </section>
     </main>
