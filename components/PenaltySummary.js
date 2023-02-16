@@ -1,6 +1,6 @@
 import { useState, useMemo, useCallback, memo } from "react"
 import { v4 as uuid4 } from "uuid"
-import { Menu, Close, FileCopy, Delete } from "@material-ui/icons"
+import { MdMenu, MdClose, MdFileCopy, MdDelete } from "react-icons/md"
 
 function PenaltySummary({ data, goToPenalty, deletePenalty, resetPenalties }) {
   const penaltyList = {}
@@ -22,7 +22,7 @@ function PenaltySummary({ data, goToPenalty, deletePenalty, resetPenalties }) {
   return (
     <main className={`absolute md:relative ${currState ? "w-screen md:w-2/5 md:max-w-2xl" : "w-0"} h-screen flex flex-col`}>
       <header className={`p-5 ${state ? "border-r border-slate-700 bg-slate-800" : null}`} onClick={() => setState(!currState)}>
-        {state ? <Close className="cursor-pointer" /> : <Menu className="cursor-pointer" />}
+        {state ? <MdClose className="cursor-pointer" size={"24px"} /> : <MdMenu className="cursor-pointer" size={"24px"} />}
       </header>
       <section className={`w-full flex-1 ${currState ? "flex" : "hidden"} flex-col border-r border-slate-700 bg-slate-800`}>
         <main className="relative flex flex-col flex-1 border-y border-slate-700 text-xl overflow-auto">
@@ -32,14 +32,14 @@ function PenaltySummary({ data, goToPenalty, deletePenalty, resetPenalties }) {
             return (
               <div key={obj.Paragraph} className="flex gap-5 px-10 py-5 border-b border-slate-700" onClick={() => goToPenalty(obj)}>
                 <p className="flex-1 truncate"><b className="text-cyan-500">{penaltyList[penalty]}x</b> {obj.ID} - {obj.Name}</p>
-                <Close className="my-auto cursor-pointer" onClick={() => deletePenalty(obj)} />
+                <MdClose className="my-auto cursor-pointer" size={"24px"} onClick={() => deletePenalty(obj)} />
               </div>              
             )
           })}              
           <div className="sticky bottom-0 w-full flex gap-5 px-10 py-5 mt-auto border-t-2 border-slate-700 bg-slate-800">
             <p className="flex-1 text-lg">{Object.values(penaltyList).reduce((sum, n) => sum + n, 0)} büntetés</p>
-            <FileCopy className="m-auto cursor-pointer" onClick={() => copyToClipboard()} />
-            <Delete className="m-auto cursor-pointer" onClick={() => resetPenalties()} />
+            <MdFileCopy className="m-auto cursor-pointer" size={"24px"} onClick={() => copyToClipboard()} />
+            <MdDelete className="m-auto cursor-pointer" size={"24px"} onClick={() => resetPenalties()} />
           </div>
         </main>
         <footer className="grid grid-cols-2">
