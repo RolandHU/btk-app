@@ -19,3 +19,8 @@
 ::-webkit-scrollbar-thumb:hover {
   background: slategray;
 }
+
+* {
+  scroll-behavior: smooth;
+  scroll-padding: 1.5rem;
+}

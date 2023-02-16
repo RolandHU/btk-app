@@ -4,7 +4,7 @@ function Penalty ({ data, func }) {
   const formatter = Intl.NumberFormat('en', { notation: 'compact' })
 
   return (
-    <details className={`w-full ${func.penalties.includes(data) ? "border-2 border-cyan-500" : "border border-slate-700"} rounded-md text-lg overflow-clip`} open={func.penaltyState.includes(data.Paragraph)}>
+    <details id={data.Paragraph} className={`w-full ${func.penalties.includes(data) ? "border-2 border-cyan-500" : "border border-slate-700"} rounded-md text-lg overflow-clip`} open={func.penaltyState.includes(data.Paragraph)}>
       <summary className="flex flex-col md:flex-row list-none bg-slate-800">
         <h2 className="flex-1 px-10 pt-5 md:py-5 text-xl font-semibold truncate" onClick={() => func.changePenaltyState(data.Paragraph)}>{data.Name}</h2>
         <p className="px-10 pb-5 md:pb-0 md:m-auto text-slate-500">{data.ID}</p>

@@ -1,6 +1,6 @@
 [
   {
-    "Paragraph": "1 §",
+    "Paragraph": "1§",
     "Name": "Forgalom Feltartása",
     "MinTicket": 7500,
     "MaxTicket": 20000,
@@ -11,7 +11,7 @@
     "Category": "Közlekedési Szabálysértés"
   },
   {
-    "Paragraph": "2 §",
+    "Paragraph": "2§",
     "Name": "Gondatlan Vezetés",
     "MinTicket": 7500,
     "MaxTicket": 20000,
@@ -22,7 +22,7 @@
     "Category": "Közlekedési Szabálysértés"
   },
   {
-    "Paragraph": "3 §",
+    "Paragraph": "3§",
     "Name": "Közúti Veszélyeztetés",
     "MinTicket": 10000,
     "MaxTicket": 30000,
@@ -33,7 +33,7 @@
     "Category": "Közlekedési Szabálysértés"
   },
   {
-    "Paragraph": "4 §",
+    "Paragraph": "4§",
     "Name": "Tilosban Parkolás",
     "MinTicket": 7500,
     "MaxTicket": 20000,
@@ -44,7 +44,7 @@
     "Category": "Közlekedési Szabálysértés"
   },
   {
-    "Paragraph": "5 §",
+    "Paragraph": "5§",
     "Name": "Tilos Jelzésen Való Áthaladás",
     "MinTicket": 7500,
     "MaxTicket": 20000,
@@ -55,7 +55,7 @@
     "Category": "Közlekedési Szabálysértés"
   },
   {
-    "Paragraph": "6 §",
+    "Paragraph": "6§",
     "Name": "Bukósisak Hiánya",
     "MinTicket": 7500,
     "MaxTicket": 20000,
@@ -66,7 +66,7 @@
     "Category": "Közlekedési Szabálysértés"
   },
   {
-    "Paragraph": "7 §",
+    "Paragraph": "7§",
     "Name": "Elsőbbségadás elmulasztása",
     "MinTicket": 10000,
     "MaxTicket": 30000,
@@ -77,7 +77,7 @@
     "Category": "Közlekedési Szabálysértés"
   },
   {
-    "Paragraph": "8 §",
+    "Paragraph": "8§",
     "Name": "Kanyarodási szabályok megszegése",
     "MinTicket": 7500,
     "MaxTicket": 20000,
@@ -88,7 +88,7 @@
     "Category": "Közlekedési Szabálysértés"
   },
   {
-    "Paragraph": "9 §",
+    "Paragraph": "9§",
     "Name": "Kanyarodási szándék jelzésének elmulasztása",
     "MinTicket": 7500,
     "MaxTicket": 20000,
@@ -99,13 +99,13 @@
     "Category": "Közlekedési Szabálysértés"
   },
   {
-    "Paragraph": "10 §",
+    "Paragraph": "10§",
     "Name": "Közúti Baleset Okozása",
     "Desc": "Súlyos esetben a vezetéstől ellehet tiltani a személyt. (Max 30 nap)",
     "Category": "Közlekedési Szabálysértés"
   },
   {
-    "Paragraph": "10.1 §",
+    "Paragraph": "10.1§",
     "Name": "Cserbenhagyásos gázolás",
     "MinTicket": 25000,
     "MaxTicket": 50000,
@@ -116,7 +116,7 @@
     "Category": "Közlekedési Szabálysértés"
   },
   {
-    "Paragraph": "10.2 §",
+    "Paragraph": "10.2§",
     "Name": "Súlyos személyi sérülés esetén",
     "MinTicket": 10000,
     "MaxTicket": 45000,
@@ -127,7 +127,7 @@
     "Category": "Közlekedési Szabálysértés"
   },
   {
-    "Paragraph": "10.3 §",
+    "Paragraph": "10.3§",
     "Name": "Halálesetkor",
     "MinTicket": 30000,
     "MaxTicket": 85000,
@@ -138,7 +138,7 @@
     "Category": "Közlekedési Szabálysértés"
   },
   {
-    "Paragraph": "11 §",
+    "Paragraph": "11§",
     "Name": "Kötelező Felszerelés Hiánya",
     "MinTicket": 7500,
     "MaxTicket": 15000,
@@ -149,7 +149,7 @@
     "Category": "Közlekedési Szabálysértés"
   },
   {
-    "Paragraph": "12 §",
+    "Paragraph": "12§",
     "Name": "Fényszóró Használtának Mulasztása",
     "MinTicket": 7500,
     "MaxTicket": 15000,
@@ -160,7 +160,7 @@
     "Category": "Közlekedési Szabálysértés"
   },
   {
-    "Paragraph": "13 §",
+    "Paragraph": "13§",
     "Name": "Biztonsági öv Használatának Mulasztása",
     "MinTicket": 7500,
     "MaxTicket": 15000,
@@ -171,7 +171,7 @@
     "Category": "Közlekedési Szabálysértés"
   },
   {
-    "Paragraph": "14 §",
+    "Paragraph": "14§",
     "Name": "Mobiltelefon Használata Vezetéskor",
     "MinTicket": 7500,
     "MaxTicket": 15000,
@@ -182,13 +182,13 @@
     "Category": "Közlekedési Szabálysértés"
   },
   {
-    "Paragraph": "15 §",
+    "Paragraph": "15§",
     "Name": "Engedély Nélküli Vezetés",
     "Desc": "Ez egy főkategória, aminek az alkategóriáit bünteted.",
     "Category": "Közlekedési Szabálysértés"
   },
   {
-    "Paragraph": "15.1 §",
+    "Paragraph": "15.1§",
     "Name": "Nem rendelkezik jogosítvánnyal",
     "MinTicket": 7500,
     "MaxTicket": 20000,
@@ -199,7 +199,7 @@
     "Category": "Közlekedési Szabálysértés"
   },
   {
-    "Paragraph": "15.2 §",
+    "Paragraph": "15.2§",
     "Name": "Nem megfelelő kategóriás a jogosítvány",
     "MinTicket": 7500,
     "MaxTicket": 10000,
@@ -210,13 +210,13 @@
     "Category": "Közlekedési Szabálysértés"
   },
   {
-    "Paragraph": "16 §",
+    "Paragraph": "16§",
     "Name": "Hatósági Engedély Hiánya",
     "Desc": "Ez egy főkategória, aminek az alkategóriáit bünteted.",
     "Category": "Közlekedési Szabálysértés"
   },
   {
-    "Paragraph": "16.1 §",
+    "Paragraph": "16.1§",
     "Name": "Nem rendelkezik forgalmi engedélyel",
     "MinTicket": 7500,
     "MaxTicket": 20000,
@@ -227,13 +227,13 @@
     "Category": "Közlekedési Szabálysértés"
   },
   {
-    "Paragraph": "17 §",
+    "Paragraph": "17§",
     "Name": "Megkülönböztető Jelzés Jogtalan Használata",
     "Desc": "Ez egy főkategória, aminek az alkategóriáit bünteted.",
     "Category": "Közlekedési Szabálysértés"
   },
   {
-    "Paragraph": "17.1 §",
+    "Paragraph": "17.1§",
     "Name": "A megkülönböztető jelzés illegális beszerelése",
     "MinTicket": 25000,
     "MaxTicket": 50000,
@@ -244,7 +244,7 @@
     "Category": "Közlekedési Szabálysértés"
   },
   {
-    "Paragraph": "17.2 §",
+    "Paragraph": "17.2§",
     "Name": "Forgalomban lévő járművön való használata",
     "MinTicket": 25000,
     "MaxTicket": 70000,
@@ -255,7 +255,7 @@
     "Category": "Közlekedési Szabálysértés"
   },
   {
-    "Paragraph": "18 §",
+    "Paragraph": "18§",
     "Name": "Járművezetés Eltiltás Hatálya Alatt",
     "MinTicket": 25000,
     "MaxTicket": 50000,
@@ -265,13 +265,13 @@
     "Category": "Közlekedési Szabálysértés"
   },
   {
-    "Paragraph": "19 §",
+    "Paragraph": "19§",
     "Name": "Gyorshajtás Lakott Területen (50km/h)",
     "Desc": "Ez egy főkategória, aminek az alkategóriáit bünteted.",
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "19.1 §",
+    "Paragraph": "19.1§",
     "Name": "25% (65km/h)",
     "MinTicket": 5000,
     "MaxTicket": 15000,
@@ -281,7 +281,7 @@
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "19.2 §",
+    "Paragraph": "19.2§",
     "Name": "100% (100km/h)",
     "MinTicket": 7000,
     "MaxTicket": 17000,
@@ -291,7 +291,7 @@
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "19.3 §",
+    "Paragraph": "19.3§",
     "Name": "200% (150km/h)",
     "MinTicket": 10000,
     "MaxTicket": 20000,
@@ -302,7 +302,7 @@
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "19.4 §",
+    "Paragraph": "19.4§",
     "Name": "300% (200km/h)",
     "MinTicket": 15000,
     "MaxTicket": 25000,
@@ -313,13 +313,13 @@
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "20 §",
+    "Paragraph": "20§",
     "Name": "Gyorshajtás Országúton (90km/h)",
     "Desc": "Ez egy főkategória, aminek az alkategóriáit bünteted.",
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "20.1 §",
+    "Paragraph": "20.1§",
     "Name": "25% (110km/h)",
     "MinTicket": 5000,
     "MaxTicket": 15000,
@@ -329,7 +329,7 @@
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "20.2 §",
+    "Paragraph": "20.2§",
     "Name": "50% (135km/h)",
     "MinTicket": 7000,
     "MaxTicket": 17000,
@@ -339,7 +339,7 @@
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "20.3 §",
+    "Paragraph": "20.3§",
     "Name": "100% (180km/h)",
     "MinTicket": 10000,
     "MaxTicket": 20000,
@@ -350,7 +350,7 @@
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "20.4 §",
+    "Paragraph": "20.4§",
     "Name": "200% (270km/h)",
     "MinTicket": 17000,
     "MaxTicket": 27500,
@@ -361,13 +361,13 @@
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "21 §",
+    "Paragraph": "21§",
     "Name": "Gyorshajtás Autópályán (120km/h)",
     "Desc": "Ez egy főkategória, aminek az alkategóriáit bünteted.",
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "21.1 §",
+    "Paragraph": "21.1§",
     "Name": "25% (130km/h)",
     "MinTicket": 5000,
     "MaxTicket": 15000,
@@ -377,7 +377,7 @@
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "21.2 §",
+    "Paragraph": "21.2§",
     "Name": "50% (180km/h)",
     "MinTicket": 8000,
     "MaxTicket": 18000,
@@ -387,7 +387,7 @@
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "21.3 §",
+    "Paragraph": "21.3§",
     "Name": "100% (240km/h)",
     "MinTicket": 12000,
     "MaxTicket": 22000,
@@ -398,7 +398,7 @@
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "21.4 §",
+    "Paragraph": "21.4§",
     "Name": "150% (300km/h)",
     "MinTicket": 20000,
     "MaxTicket": 30000,
@@ -409,13 +409,13 @@
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "22 §",
+    "Paragraph": "22§",
     "Name": "Illegális Autóalkatrész",
     "Desc": "Ez egy főkategória, aminek az alkategóriáit bünteted.",
     "Category": "Egyéb Közlekedésre Vonatkozó Szabálysértések"
   },
   {
-    "Paragraph": "22.1 §",
+    "Paragraph": "22.1§",
     "Name": "Neoncső",
     "MinTicket": 15000,
     "MaxTicket": 30000,
@@ -426,7 +426,7 @@
     "Category": "Egyéb Közlekedésre Vonatkozó Szabálysértések"
   },
   {
-    "Paragraph": "22.2 §",
+    "Paragraph": "22.2§",
     "Name": "Színes / tompított fényszóró",
     "MinTicket": 15000,
     "MaxTicket": 30000,
@@ -437,13 +437,13 @@
     "Category": "Egyéb Közlekedésre Vonatkozó Szabálysértések"
   },
   {
-    "Paragraph": "23 §",
+    "Paragraph": "23§",
     "Name": "Rongált Járművel Való Közlekedés",
     "Desc": "Ez egy főkategória, aminek az alkategóriáit bünteted.",
     "Category": "Egyéb Közlekedésre Vonatkozó Szabálysértések"
   },
   {
-    "Paragraph": "23.1 §",
+    "Paragraph": "23.1§",
     "Name": "Első szélvédő sérülése",
     "MinTicket": 7500,
     "MaxTicket": 12500,
@@ -454,7 +454,7 @@
     "Category": "Egyéb Közlekedésre Vonatkozó Szabálysértések"
   },
   {
-    "Paragraph": "23.2 §",
+    "Paragraph": "23.2§",
     "Name": "Hátsó szélvédő sérülése",
     "MinTicket": 7500,
     "MaxTicket": 12500,
@@ -465,7 +465,7 @@
     "Category": "Egyéb Közlekedésre Vonatkozó Szabálysértések"
   },
   {
-    "Paragraph": "23.3 §",
+    "Paragraph": "23.3§",
     "Name": "Karoszszériaelemek sérülése",
     "MinTicket": 7500,
     "MaxTicket": 12500,
@@ -476,7 +476,7 @@
     "Category": "Egyéb Közlekedésre Vonatkozó Szabálysértések"
   },
   {
-    "Paragraph": "23.4 §",
+    "Paragraph": "23.4§",
     "Name": "Működésképtelen izzó (darab)",
     "MinTicket": 7500,
     "MaxTicket": 12500,
@@ -487,7 +487,7 @@
     "Category": "Egyéb Közlekedésre Vonatkozó Szabálysértések"
   },
   {
-    "Paragraph": "24 §",
+    "Paragraph": "24§",
     "Name": "Személyi Igazolvány Hiánya",
     "MinTicket": 7500,
     "MaxTicket": 15000,
@@ -498,7 +498,7 @@
     "Category": "Enyhébb Szabálysértések"
   },
   {
-    "Paragraph": "25 §",
+    "Paragraph": "25§",
     "Name": "Útlevél Hiánya",
     "MinTicket": 7500,
     "MaxTicket": 15000,
@@ -509,7 +509,7 @@
     "Category": "Enyhébb Szabálysértések"
   },
   {
-    "Paragraph": "26 §",
+    "Paragraph": "26§",
     "Name": "Közvagyon Megrongálása",
     "MinTicket": 14000,
     "MaxTicket": 15000,
@@ -520,7 +520,7 @@
     "Category": "Enyhébb Szabálysértések"
   },
   {
-    "Paragraph": "27 §",
+    "Paragraph": "27§",
     "Name": "Rendőrrel Szembeni Tiszteletlenség",
     "MinTicket": 14000,
     "MaxTicket": 15000,
@@ -530,7 +530,7 @@
     "Category": "Enyhébb Szabálysértések"
   },
   {
-    "Paragraph": "28 §",
+    "Paragraph": "28§",
     "Name": "Segítségnyújtás elmulasztása",
     "MinTicket": 10000,
     "MaxTicket": 40000,
@@ -541,7 +541,7 @@
     "Category": "Vétségek"
   },
   {
-    "Paragraph": "29 §",
+    "Paragraph": "29§",
     "Name": "Közerkölcs megsértése",
     "MinTicket": 10000,
     "MaxTicket": 20000,
@@ -552,7 +552,7 @@
     "Category": "Vétségek"
   },
   {
-    "Paragraph": "30 §",
+    "Paragraph": "30§",
     "Name": "Rongálás",
     "MinTicket": 15000,
     "MaxTicket": 20000,
@@ -562,7 +562,7 @@
     "Category": "Vétségek"
   },
   {
-    "Paragraph": "31 §",
+    "Paragraph": "31§",
     "Name": "Lopás",
     "MinTicket": 10000,
     "MaxTicket": 40000,
@@ -572,7 +572,7 @@
     "Category": "Vétségek"
   },
   {
-    "Paragraph": "32 §",
+    "Paragraph": "32§",
     "Name": "Benzinlopás",
     "MinTicket": 15000,
     "MaxTicket": 30000,
@@ -582,7 +582,7 @@
     "Category": "Vétségek"
   },
   {
-    "Paragraph": "33 §",
+    "Paragraph": "33§",
     "Name": "Autólopás",
     "MinTicket": 15000,
     "MaxTicket": 50000,
@@ -592,7 +592,7 @@
     "Category": "Vétségek"
   },
   {
-    "Paragraph": "34 §",
+    "Paragraph": "34§",
     "Name": "Hamis Vád",
     "MinTicket": 12500,
     "MaxTicket": 50000,
@@ -603,7 +603,7 @@
     "Category": "Igazságszolgáltatás Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "35 §",
+    "Paragraph": "35§",
     "Name": "Hatóság Félrevezetése",
     "MinTicket": 15000,
     "MaxTicket": 60000,
@@ -613,7 +613,7 @@
     "Category": "Igazságszolgáltatás Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "36 §",
+    "Paragraph": "36§",
     "Name": "Hamis Tanúzás",
     "MinTicket": 12500,
     "MaxTicket": 50000,
@@ -623,7 +623,7 @@
     "Category": "Igazságszolgáltatás Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "37 §",
+    "Paragraph": "37§",
     "Name": "Hamis Tanúzásra Felhívás",
     "MinTicket": 10000,
     "MaxTicket": 40000,
@@ -633,7 +633,7 @@
     "Category": "Igazságszolgáltatás Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "38 §",
+    "Paragraph": "38§",
     "Name": "Tanúvallomás Jogosulatlan Megtagadása",
     "MinTicket": 12500,
     "MaxTicket": 30000,
@@ -643,7 +643,7 @@
     "Category": "Igazságszolgáltatás Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "39 §",
+    "Paragraph": "39§",
     "Name": "Kényszerítés Hatósági Eljárásban",
     "MinTicket": 15000,
     "MaxTicket": 60000,
@@ -653,7 +653,7 @@
     "Category": "Igazságszolgáltatás Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "40 §",
+    "Paragraph": "40§",
     "Name": "Hatósági Eljárás Megzavarása",
     "MinTicket": 10000,
     "MaxTicket": 50000,
@@ -663,7 +663,7 @@
     "Category": "Igazságszolgáltatás Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "41 §",
+    "Paragraph": "41§",
     "Name": "Igazságszolgáltatással Összefüggő Titoksértés",
     "MinTicket": 25000,
     "MaxTicket": 100000,
@@ -673,7 +673,7 @@
     "Category": "Igazságszolgáltatás Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "42 §",
+    "Paragraph": "42§",
     "Name": "Mentőkörülmény Elhallgatása",
     "MinTicket": 12500,
     "MaxTicket": 50000,
@@ -683,7 +683,7 @@
     "Category": "Igazságszolgáltatás Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "43 §",
+    "Paragraph": "43§",
     "Name": "Bűnpártolás",
     "MinTicket": 20000,
     "MaxTicket": 60000,
@@ -693,7 +693,7 @@
     "Category": "Igazságszolgáltatás Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "44 §",
+    "Paragraph": "44§",
     "Name": "Fogolyszökés",
     "MinTicket": 20000,
     "MaxTicket": 60000,
@@ -704,7 +704,7 @@
     "Category": "Igazságszolgáltatás Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "45 §",
+    "Paragraph": "45§",
     "Name": "Fogolyszöktetés",
     "MinTicket": 30000,
     "MaxTicket": 80000,
@@ -715,7 +715,7 @@
     "Category": "Igazságszolgáltatás Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "46 §",
+    "Paragraph": "46§",
     "Name": "Fogolyzendülés",
     "MinTicket": 15000,
     "MaxTicket": 50000,
@@ -726,7 +726,7 @@
     "Category": "Igazságszolgáltatás Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "47 §",
+    "Paragraph": "47§",
     "Name": "Ügyvédi Visszaélés",
     "MinTicket": 30000,
     "MaxTicket": 100000,
@@ -736,7 +736,7 @@
     "Category": "Igazságszolgáltatás Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "48 §",
+    "Paragraph": "48§",
     "Name": "Hivatalos Személy Eljárása Során Elkövetett Bűnpártolás",
     "MinTicket": 30000,
     "MaxTicket": 80000,
@@ -747,7 +747,7 @@
     "Category": "Igazságszolgáltatás Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "49 §",
+    "Paragraph": "49§",
     "Name": "Bírósági Végrehajtás Akadályoztatása",
     "MinTicket": 15000,
     "MaxTicket": 50000,
@@ -758,7 +758,7 @@
     "Category": "Igazságszolgáltatás Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "50 §",
+    "Paragraph": "50§",
     "Name": "Hivatali Területre Való Behatolás",
     "MinTicket": 20000,
     "MaxTicket": 60000,
@@ -768,7 +768,7 @@
     "Category": "Igazságszolgáltatás Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "51 §",
+    "Paragraph": "51§",
     "Name": "Nyomozás Akadályozása",
     "MinTicket": 20000,
     "MaxTicket": 80000,
@@ -779,7 +779,7 @@
     "Category": "Igazságszolgáltatás Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "52 §",
+    "Paragraph": "52§",
     "Name": "Célravezető Bizonyíték Eltitkolása",
     "MinTicket": 20000,
     "MaxTicket": 80000,
@@ -790,7 +790,7 @@
     "Category": "Igazságszolgáltatás Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "53 §",
+    "Paragraph": "53§",
     "Name": "Hivatali Személy Elleni Erőszak",
     "MinTicket": 20000,
     "MaxTicket": 100000,
@@ -800,7 +800,7 @@
     "Category": "Hivatalos Személy Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "54 §",
+    "Paragraph": "54§",
     "Name": "Közfeladatot Ellátó Személy Elleni Erőszak",
     "MinTicket": 18000,
     "MaxTicket": 50000,
@@ -810,7 +810,7 @@
     "Category": "Hivatalos Személy Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "55 §",
+    "Paragraph": "55§",
     "Name": "Nemzetközileg Védett Személy Elleni Erőszak",
     "MinTicket": 30000,
     "MaxTicket": 120000,
@@ -820,7 +820,7 @@
     "Category": "Hivatalos Személy Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "56 §",
+    "Paragraph": "56§",
     "Name": "Hivatali Személy Megvesztegetése",
     "MinTicket": 15000,
     "MaxTicket": 50000,
@@ -830,7 +830,7 @@
     "Category": "Hivatalos Személy Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "57 §",
+    "Paragraph": "57§",
     "Name": "Kiskorú Veszélyeztetése",
     "MinTicket": 22000,
     "MaxTicket": 56000,
@@ -841,7 +841,7 @@
     "Category": "Gyermekek Érdekét Sértő és Család Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "58 §",
+    "Paragraph": "58§",
     "Name": "Kapcsolati Erőszak",
     "MinTicket": 20000,
     "MaxTicket": 50000,
@@ -851,7 +851,7 @@
     "Category": "Gyermekek Érdekét Sértő és Család Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "59 §",
+    "Paragraph": "59§",
     "Name": "Szexuális Kényszerítés",
     "MinTicket": 12000,
     "MaxTicket": 32000,
@@ -862,7 +862,7 @@
     "Category": "Nemi Élet Szabadsága és Nemi Erkölcs Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "60 §",
+    "Paragraph": "60§",
     "Name": "Szexuális Erőszak",
     "MinTicket": 16000,
     "MaxTicket": 42000,
@@ -873,7 +873,7 @@
     "Category": "Nemi Élet Szabadsága és Nemi Erkölcs Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "61 §",
+    "Paragraph": "61§",
     "Name": "Szexuális Visszaélés",
     "MinTicket": 14000,
     "MaxTicket": 36000,
@@ -884,7 +884,7 @@
     "Category": "Nemi Élet Szabadsága és Nemi Erkölcs Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "62 §",
+    "Paragraph": "62§",
     "Name": "Prostitúció Elősegítése",
     "MinTicket": 10000,
     "MaxTicket": 30000,
@@ -895,7 +895,7 @@
     "Category": "Nemi Élet Szabadsága és Nemi Erkölcs Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "63 §",
+    "Paragraph": "63§",
     "Name": "Gyermekprostitúció Kihasználása",
     "MinTicket": 15000,
     "MaxTicket": 50000,
@@ -906,7 +906,7 @@
     "Category": "Nemi Élet Szabadsága és Nemi Erkölcs Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "64 §",
+    "Paragraph": "64§",
     "Name": "Szeméremsértés",
     "MinTicket": 10000,
     "MaxTicket": 30000,
@@ -917,7 +917,7 @@
     "Category": "Nemi Élet Szabadsága és Nemi Erkölcs Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "65 §",
+    "Paragraph": "65§",
     "Name": "Okirathamisítás",
     "MinTicket": 20000,
     "MaxTicket": 60000,
@@ -928,7 +928,7 @@
     "Category": "Közbizalom Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "66 §",
+    "Paragraph": "66§",
     "Name": "Szolgálati Kellékkel Való Visszaélés",
     "MinTicket": 25000,
     "MaxTicket": 80000,
@@ -939,7 +939,7 @@
     "Category": "Közbizalom Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "67 §",
+    "Paragraph": "67§",
     "Name": "Hivatali Visszaélés",
     "MinTicket": 25000,
     "MaxTicket": 80000,
@@ -950,7 +950,7 @@
     "Category": "Közbizalom Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "68 §",
+    "Paragraph": "68§",
     "Name": "Korrupció",
     "MinTicket": 25000,
     "MaxTicket": 80000,
@@ -961,7 +961,7 @@
     "Category": "Közbizalom Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "69 §",
+    "Paragraph": "69§",
     "Name": "Nyomozás Szándékos Félrevezetése",
     "MinTicket": 30000,
     "MaxTicket": 100000,
@@ -972,7 +972,7 @@
     "Category": "Közbizalom Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "70 §",
+    "Paragraph": "70§",
     "Name": "Parancsmegtagadás",
     "MinTicket": 10000,
     "MaxTicket": 60000,
@@ -983,7 +983,7 @@
     "Category": "Közbizalom Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "71 §",
+    "Paragraph": "71§",
     "Name": "Önkényuralmi Jelkép Használata",
     "MinTicket": 10000,
     "MaxTicket": 40000,
@@ -994,7 +994,7 @@
     "Category": "Köznyugalom Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "72 §",
+    "Paragraph": "72§",
     "Name": "Rendbontás",
     "MinTicket": 10000,
     "MaxTicket": 40000,
@@ -1005,13 +1005,13 @@
     "Category": "Köznyugalom Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "73 §",
+    "Paragraph": "73§",
     "Name": "Garázdaság",
     "Desc": "Közellenes, aggresszív magatartásával másokban félelmet, riadalmat kelt.",
     "Category": "Köznyugalom Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "73.1 §",
+    "Paragraph": "73.1§",
     "Name": "Magányosan",
     "MinTicket": 10000,
     "MaxTicket": 30000,
@@ -1021,7 +1021,7 @@
     "Category": "Köznyugalom Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "73.2 §",
+    "Paragraph": "73.2§",
     "Name": "Csoportosan",
     "MinTicket": 15000,
     "MaxTicket": 40000,
@@ -1031,7 +1031,7 @@
     "Category": "Köznyugalom Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "73.3 §",
+    "Paragraph": "73.3§",
     "Name": "Fegyveresen",
     "MinTicket": 20000,
     "MaxTicket": 50000,
@@ -1041,7 +1041,7 @@
     "Category": "Köznyugalom Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "74 §",
+    "Paragraph": "74§",
     "Name": "Hatósági Rendelkezés Elleni Uszítás",
     "MinTicket": 10000,
     "MaxTicket": 40000,
@@ -1052,7 +1052,7 @@
     "Category": "Köznyugalom Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "75 §",
+    "Paragraph": "75§",
     "Name": "Kábítószer Birtoklás",
     "MinTicket": 10000,
     "MaxTicket": 60000,
@@ -1062,7 +1062,7 @@
     "Category": "Köznyugalom Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "76 §",
+    "Paragraph": "76§",
     "Name": "Kábítószer Árusítás",
     "MinTicket": 25000,
     "MaxTicket": 100000,
@@ -1072,7 +1072,7 @@
     "Category": "Köznyugalom Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "77 §",
+    "Paragraph": "77§",
     "Name": "Kábítószer Termesztés",
     "MinTicket": 15000,
     "MaxTicket": 70000,
@@ -1082,13 +1082,13 @@
     "Category": "Köznyugalom Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "78 §",
+    "Paragraph": "78§",
     "Name": "Gyilkosság",
     "Desc": "Ez egy főkategória, aminek az alkategóriáit bünteted.",
     "Category": "Emberi Szabadság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "78.1 §",
+    "Paragraph": "78.1§",
     "Name": "  -Kisérlete",
     "MinTicket": 10000,
     "MaxTicket": 40000,
@@ -1098,7 +1098,7 @@
     "Category": "Emberi Szabadság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "78.2 §",
+    "Paragraph": "78.2§",
     "Name": "  -Gondatlanságból Elkövetett Emberölés",
     "MinTicket": 15000,
     "MaxTicket": 50000,
@@ -1108,7 +1108,7 @@
     "Category": "Emberi Szabadság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "78.3 §",
+    "Paragraph": "78.3§",
     "Name": "  -Előre Megtervezett Gyilkosság",
     "MinTicket": 25000,
     "MaxTicket": 70000,
@@ -1118,7 +1118,7 @@
     "Category": "Emberi Szabadság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "78.4 §",
+    "Paragraph": "78.4§",
     "Name": "  -Hivatali Személy Elleni Gyilkosság",
     "MinTicket": 35000,
     "MaxTicket": 90000,
@@ -1128,7 +1128,7 @@
     "Category": "Emberi Szabadság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "78.5 §",
+    "Paragraph": "78.5§",
     "Name": "  -Terrorcselekményhez Fűződő Merénylet",
     "MinTicket": 45000,
     "MaxTicket": 110000,
@@ -1139,7 +1139,7 @@
     "Category": "Emberi Szabadság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "78.6 §",
+    "Paragraph": "78.6§",
     "Name": "  -Különösen Visszaeső Által",
     "MinTicket": 30000,
     "MaxTicket": 100000,
@@ -1149,7 +1149,7 @@
     "Category": "Emberi Szabadság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "79 §",
+    "Paragraph": "79§",
     "Name": "Emberrablás",
     "MinTicket": 30000,
     "MaxTicket": 100000,
@@ -1159,7 +1159,7 @@
     "Category": "Emberi Szabadság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "80 §",
+    "Paragraph": "80§",
     "Name": "Emberrablás Feljelentésének Mulasztása",
     "MinTicket": 15000,
     "MaxTicket": 50000,
@@ -1169,7 +1169,7 @@
     "Category": "Emberi Szabadság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "81 §",
+    "Paragraph": "81§",
     "Name": "Emberkereskedelem",
     "MinTicket": 40000,
     "MaxTicket": 120000,
@@ -1179,7 +1179,7 @@
     "Category": "Emberi Szabadság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "82 §",
+    "Paragraph": "82§",
     "Name": "Személyi Szabadság Megsértése",
     "MinTicket": 15000,
     "MaxTicket": 50000,
@@ -1190,7 +1190,7 @@
     "Category": "Emberi Szabadság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "83 §",
+    "Paragraph": "83§",
     "Name": "Személyes Adattal Való Visszaélés",
     "MinTicket": 15000,
     "MaxTicket": 50000,
@@ -1201,7 +1201,7 @@
     "Category": "Emberi Méltóság és Alapvető Jogok Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "84 §",
+    "Paragraph": "84§",
     "Name": "Magánlaksértés",
     "MinTicket": 15000,
     "MaxTicket": 50000,
@@ -1211,7 +1211,7 @@
     "Category": "Emberi Méltóság és Alapvető Jogok Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "85 §",
+    "Paragraph": "85§",
     "Name": "Zaklatás",
     "MinTicket": 15000,
     "MaxTicket": 50000,
@@ -1221,7 +1221,7 @@
     "Category": "Emberi Méltóság és Alapvető Jogok Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "86 §",
+    "Paragraph": "86§",
     "Name": "Becsületsértés",
     "MinTicket": 15000,
     "MaxTicket": 50000,
@@ -1232,7 +1232,7 @@
     "Category": "Emberi Méltóság és Alapvető Jogok Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "87 §",
+    "Paragraph": "87§",
     "Name": "Kegyeletsértés",
     "MinTicket": 15000,
     "MaxTicket": 50000,
@@ -1243,13 +1243,13 @@
     "Category": "Emberi Méltóság és Alapvető Jogok Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "88 §",
+    "Paragraph": "88§",
     "Name": "Testi sértés",
     "Desc": "Ez egy főkategória, aminek az alkategóriáit bünteted.",
     "Category": "Közbiztonság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "88.1 §",
+    "Paragraph": "88.1§",
     "Name": " Könnyű testisértés",
     "MinTicket": 15000,
     "MaxTicket": 30000,
@@ -1259,7 +1259,7 @@
     "Category": "Közbiztonság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "88.2 §",
+    "Paragraph": "88.2§",
     "Name": " Súlyos testisértés",
     "MinTicket": 20000,
     "MaxTicket": 40000,
@@ -1269,7 +1269,7 @@
     "Category": "Közbiztonság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "88.3 §",
+    "Paragraph": "88.3§",
     "Name": " Életveszélyes sérülést okozó testisértés",
     "MinTicket": 25000,
     "MaxTicket": 50000,
@@ -1279,7 +1279,7 @@
     "Category": "Közbiztonság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "89 §",
+    "Paragraph": "89§",
     "Name": "Terrorcselekmény",
     "MinTicket": 50000,
     "MaxTicket": 200000,
@@ -1290,7 +1290,7 @@
     "Category": "Közbiztonság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "90 §",
+    "Paragraph": "90§",
     "Name": "Terrorcselekmény Feljelentésének Mulasztása",
     "MinTicket": 25000,
     "MaxTicket": 100000,
@@ -1301,7 +1301,7 @@
     "Category": "Közbiztonság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "91 §",
+    "Paragraph": "91§",
     "Name": "Terrorcselekmény Finanszírozása",
     "MinTicket": 75000,
     "MaxTicket": 300000,
@@ -1312,7 +1312,7 @@
     "Category": "Közbiztonság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "92 §",
+    "Paragraph": "92§",
     "Name": "Bűnszövetkezetben való részvétel",
     "MinTicket": 50000,
     "MaxTicket": 150000,
@@ -1323,7 +1323,7 @@
     "Category": "Közbiztonság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "93 §",
+    "Paragraph": "93§",
     "Name": "Illegális Fegyver Birtoklása",
     "MinTicket": 25000,
     "MaxTicket": 100000,
@@ -1334,7 +1334,7 @@
     "Category": "Közbiztonság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "94 §",
+    "Paragraph": "94§",
     "Name": "Illegális Fegyver Kereskedelem",
     "MinTicket": 30000,
     "MaxTicket": 120000,
@@ -1345,7 +1345,7 @@
     "Category": "Közbiztonság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "95 §",
+    "Paragraph": "95§",
     "Name": "Illegális Alkotóelem Birtoklása",
     "MinTicket": 15000,
     "MaxTicket": 50000,
@@ -1356,7 +1356,7 @@
     "Category": "Közbiztonság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "96 §",
+    "Paragraph": "96§",
     "Name": "Illegális Fegyvertár Birtoklása",
     "MinTicket": 18000,
     "MaxTicket": 18000,
@@ -1367,7 +1367,7 @@
     "Category": "Közbiztonság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "97 §",
+    "Paragraph": "97§",
     "Name": "Bankrablás",
     "MinTicket": 75000,
     "MaxTicket": 200000,
@@ -1378,7 +1378,7 @@
     "Category": "Közbiztonság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "98 §",
+    "Paragraph": "98§",
     "Name": "Hivatali Szállítójármű Eltulajdonítása",
     "MinTicket": 50000,
     "MaxTicket": 150000,
@@ -1388,7 +1388,7 @@
     "Category": "Közbiztonság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "99 §",
+    "Paragraph": "99§",
     "Name": "Rendvédelem Előli Menekülés",
     "MinTicket": 20000,
     "MaxTicket": 35000,
@@ -1398,7 +1398,7 @@
     "Category": "Közbiztonság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "100 §",
+    "Paragraph": "100§",
     "Name": "Rendvédelmi Utasítás Megszegése",
     "MinTicket": 20000,
     "MaxTicket": 35000,
@@ -1408,7 +1408,7 @@
     "Category": "Közbiztonság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "101 §",
+    "Paragraph": "101§",
     "Name": "Rablás",
     "MinTicket": 20000,
     "MaxTicket": 60000,
@@ -1419,7 +1419,7 @@
     "Category": "Közbiztonság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "102 §",
+    "Paragraph": "102§",
     "Name": "Kifosztás",
     "MinTicket": 15000,
     "MaxTicket": 50000,
@@ -1430,7 +1430,7 @@
     "Category": "Közbiztonság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "103 §",
+    "Paragraph": "103§",
     "Name": "Bűnrészesség",
     "MinTicket": 25000,
     "MaxTicket": 70000,
@@ -1441,7 +1441,7 @@
     "Category": "Közbiztonság Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "104 §",
+    "Paragraph": "104§",
     "Name": "Határzár Tiltott Átlépése",
     "MinTicket": 15000,
     "MaxTicket": 50000,
@@ -1451,7 +1451,7 @@
     "Category": "Közigazgatás Rendje Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "105 §",
+    "Paragraph": "105§",
     "Name": "Határzár Megrongálása",
     "MinTicket": 10000,
     "MaxTicket": 40000,
@@ -1461,7 +1461,7 @@
     "Category": "Közigazgatás Rendje Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "106 §",
+    "Paragraph": "106§",
     "Name": "Embercsempészés",
     "MinTicket": 40000,
     "MaxTicket": 160000,
@@ -1471,7 +1471,7 @@
     "Category": "Közigazgatás Rendje Elleni Bűncselekmények"
   },
   {
-    "Paragraph": "107 §",
+    "Paragraph": "107§",
     "Name": "Adócsalás",
     "MinTicket": 100000,
     "MaxTicket": 2000000,

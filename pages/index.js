@@ -38,6 +38,11 @@ export default function Home({ data }) {
     return setPenaltyState(list)    
   })
 
+  const goToPenalty = useCallback((p) => {
+    location.href = "#"
+    location.href = `#${p.Paragraph}`
+  })
+
   return (
     <>
       <Head>
@@ -48,7 +53,7 @@ export default function Home({ data }) {
       </Head>
       <div className="bg-slate-900 text-slate-300">
         <div className="relative w-full flex">
-          <PenaltySummary penalties={penalties} data={data} func={{penalties, addPenalty, removePenalty, deletePenalty, resetPenalties}} />
+          <PenaltySummary data={penalties} goToPenalty={goToPenalty} deletePenalty={deletePenalty} resetPenalties={resetPenalties} />
           <main className="w-full max-h-screen flex flex-1 flex-col gap-10 p-10 overflow-auto">
             <div className="w-full max-w-7xl m-auto">
               {Object.keys(data).map(k => <PenaltyCategory key={uuid4()} title={k} data={data[k]} func={{penalties, penaltyState, changePenaltyState, addPenalty, removePenalty}} />)}              
