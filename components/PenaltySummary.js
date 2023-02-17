@@ -22,12 +22,12 @@ function PenaltySummary({ data, penalties, goToPenalty, deletePenalty, resetPena
 
   return (
     <main className={`absolute z-10 md:relative ${currState ? "w-screen md:w-2/5 md:max-w-2xl" : "w-0"} h-screen flex flex-col`}>
-      <header className={`p-5 ${state ? "border-r border-b border-slate-700 bg-slate-800" : null}`} onClick={() => setState(!currState)}>
-        {state ? <MdClose className="cursor-pointer" size={"24px"} /> : <MdMenu className="cursor-pointer" size={"24px"} />}
+      <header className={`h-16 p-5 ${state ? "border-r border-b border-slate-700 bg-slate-800" : null}`}>
+        <button onClick={() => setState(!currState)}>{state ? <MdClose className="cursor-pointer" size={"24px"} /> : <MdMenu className="cursor-pointer" size={"24px"} /> }</button>
       </header>
       <section className={`w-full flex-1 ${currState ? "flex" : "hidden"} flex-col border-r border-slate-700 bg-slate-800 overflow-clip`}>
         <header className="z-10 w-full p-5">
-          <div className="w-full border border-slate-700 rounded-md">
+          <div className="w-full border border-slate-700 rounded-md focus-within:border-cyan-500">
             <Search data={data} goToPenalty={goToPenalty} />
           </div>
         </header>
@@ -38,14 +38,14 @@ function PenaltySummary({ data, penalties, goToPenalty, deletePenalty, resetPena
             return (
               <div key={obj.Paragraph} className="flex gap-5 px-10 py-5 border-b border-slate-700" onClick={() => goToPenalty(obj)}>
                 <p className="flex-1 truncate"><b className="text-cyan-500">{penaltyList[penalty]}x</b> {obj.ID} - {obj.Name}</p>
-                <MdClose className="my-auto cursor-pointer" size={"24px"} onClick={() => deletePenalty(obj)} />
+                <button onClick={() => deletePenalty(obj)}><MdClose className="my-auto cursor-pointer" size={"24px"} /></button>
               </div>              
             )
           })}              
           <div className="sticky bottom-0 w-full flex gap-5 px-10 py-5 mt-auto border-t-2 border-slate-700 bg-slate-800">
             <p className="flex-1 text-lg">{Object.values(penaltyList).reduce((sum, n) => sum + n, 0)} büntetés</p>
-            <MdFileCopy className="m-auto cursor-pointer" size={"24px"} onClick={() => copyToClipboard()} />
-            <MdDelete className="m-auto cursor-pointer" size={"24px"} onClick={() => resetPenalties()} />
+            <button onClick={() => copyToClipboard()}><MdFileCopy className="m-auto cursor-pointer" size={"24px"} /></button>
+            <button onClick={() => resetPenalties()}><MdDelete className="m-auto cursor-pointer" size={"24px"} /></button>
           </div>
         </main>
         <footer className="grid grid-cols-2">

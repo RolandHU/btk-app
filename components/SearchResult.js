@@ -1,7 +1,7 @@
 import { memo } from "react"
 import { v4 as uuid4 } from "uuid"
 
-function SearchResult({ data, value, goToPenalty }) {
+function SearchResult({ data, value, goToPenalty, setState }) {
   const filter = new RegExp(`(.+)?(${value.toLowerCase()})(.+)?`, "gmi")
 
   return (
@@ -11,7 +11,7 @@ function SearchResult({ data, value, goToPenalty }) {
         const [ id, name ] = [ elem.ID.match(filter), elem.Name.match(filter) ]
         if (id || name)
           return (
-            <div key={uuid4()} className="flex justify-between px-5 py-2.5 border-b border-slate-700" onClick={() => goToPenalty(elem)}>
+            <div key={uuid4()} className="flex justify-between px-5 py-5 border-b border-slate-700 hover:bg-slate-700 cursor-pointer" onClick={() => { goToPenalty(elem); setState(false) }}>
               <p className={`font-semibold ${name ? "text-cyan-500" : null}`}>{elem.Name}</p>
               <p className={`${id ? "text-cyan-500" : "text-slate-500"}`}>{elem.ID}</p>
             </div>

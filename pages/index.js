@@ -6,6 +6,7 @@ import Head from "next/head"
 import PenaltySummary from "@/components/PenaltySummary"
 import PenaltyCategory from "@/components/PenaltyCategory"
 import Search from "@/components/Search"
+import { MdArrowUpward } from "react-icons/md"
 
 export default function Home({ data }) {
   const [ penalties, setPenalties ] = useState([])
@@ -52,6 +53,32 @@ export default function Home({ data }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <main className="relative h-screen flex text-lg text-slate-300 bg-slate-900">
+        <PenaltySummary data={data} penalties={penalties} goToPenalty={goToPenalty} deletePenalty={deletePenalty} resetPenalties={resetPenalties} />          
+        <div className="flex-1 overflow-auto">
+          <div className="sticky top-0 w-full h-16 flex border-b border-slate-700 bg-slate-800">
+            <div className="w-full max-w-6xl h-full flex m-auto border-x border-slate-700 focus-within:bg-slate-700">
+              <Search data={data} goToPenalty={goToPenalty} />
+            </div>
+          </div>
+          <div className="max-w-6xl px-5 m-auto">
+            {Object.keys(data).map(k => <PenaltyCategory key={uuid4()} title={k} data={data[k]} func={{penalties, penaltyState, changePenaltyState, addPenalty, removePenalty}} />)}            
+          </div>
+            <footer className="w-full px-10 py-5 mt-14 border-t border-slate-700 bg-slate-800">
+              <ul>
+                <li>BTK készítő: <span className="text-cyan-500">Tetsu</span></li>
+                <li>Weboldal készítők: <span className="text-cyan-500">Vezsenyi Roland</span>, <span className="text-cyan-500">Rioo</span></li>
+                <hr className="my-2.5 border-slate-700"/>
+                <li>Az alábbi oldal a büntetések kiszámításának megkönnyítésére szolgál. Az oldal használatáról <a href="" className="text-cyan-500 hover:underline cursor-pointer">itt</a> tekinthetsz meg egy videót.</li>
+              </ul>
+            </footer>
+        </div>
+      </main>
+
+    </>
+  )
+}
+/*
       <main className="text-lg text-slate-300 bg-slate-900">
         <div className="relative w-full flex">
           <PenaltySummary data={data} penalties={penalties} goToPenalty={goToPenalty} deletePenalty={deletePenalty} resetPenalties={resetPenalties} />
@@ -62,13 +89,11 @@ export default function Home({ data }) {
               </div>
               {Object.keys(data).map(k => <PenaltyCategory key={uuid4()} title={k} data={data[k]} func={{penalties, penaltyState, changePenaltyState, addPenalty, removePenalty}} />)}              
             </div>
+            <footer>asd</footer>
           </main>
-        </div>            
+        </div>       
       </main>
-    </>
-  )
-}
-
+*/
 export function getStaticProps() {
   const penalties = JSON.parse(fs.readFileSync(path.join(process.cwd() + "/BTK.json")))
   let categories = {}
