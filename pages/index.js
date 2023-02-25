@@ -78,22 +78,7 @@ export default function Home({ data }) {
     </>
   )
 }
-/*
-      <main className="text-lg text-slate-300 bg-slate-900">
-        <div className="relative w-full flex">
-          <PenaltySummary data={data} penalties={penalties} goToPenalty={goToPenalty} deletePenalty={deletePenalty} resetPenalties={resetPenalties} />
-          <main className="w-full max-h-screen flex flex-1 flex-col gap-10 p-10 overflow-auto">
-            <div className="relative w-full max-w-7xl m-auto">
-              <div className="sticky top-0 w-full border border-slate-700 rounded-md bg-slate-800">
-                <Search data={data} goToPenalty={goToPenalty} />                
-              </div>
-              {Object.keys(data).map(k => <PenaltyCategory key={uuid4()} title={k} data={data[k]} func={{penalties, penaltyState, changePenaltyState, addPenalty, removePenalty}} />)}              
-            </div>
-            <footer>asd</footer>
-          </main>
-        </div>       
-      </main>
-*/
+
 export function getStaticProps() {
   const penalties = JSON.parse(fs.readFileSync(path.join(process.cwd() + "/BTK.json")))
   let categories = {}

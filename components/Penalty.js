@@ -1,7 +1,7 @@
 import { memo } from "react"
 
 function Penalty ({ data, func }) {
-  const formatter = Intl.NumberFormat('en', { notation: 'compact' })
+  const formatter = Intl.NumberFormat('en', { notation: 'compact', maximumFractionDigits: 1 })
 
   return (
     <details id={data.Paragraph} className={`w-full ${func.penalties.includes(data) ? "border-2 border-cyan-500" : "border border-slate-700"} rounded-md text-lg overflow-clip cursor-pointer`} open={func.penaltyState.includes(data.Paragraph)}>

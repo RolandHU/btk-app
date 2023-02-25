@@ -5,7 +5,7 @@ import { MdMenu, MdClose, MdFileCopy, MdDelete } from "react-icons/md"
 
 function PenaltySummary({ data, penalties, goToPenalty, deletePenalty, resetPenalties }) {
   const penaltyList = {}
-  const formatter = Intl.NumberFormat('en', { notation: 'compact' })
+  const formatter = Intl.NumberFormat('en', { notation: 'compact', notation: 'compact', maximumFractionDigits: 1 })
 
   const [ state, setState ] = useState(false)
   const currState = useMemo(() => state)
