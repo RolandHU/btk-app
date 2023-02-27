@@ -256,6 +256,17 @@
   },
   {
     "Paragraph": "18§",
+    "Name": "Járművezetés Ittas Állapotban",
+    "MinTicket": 25000,
+    "MaxTicket": 50000,
+    "MinJail": 30,
+    "MaxJail": 60,
+    "ID": "JIÁ",
+    "Desc": "Tudatmódosító szer használata vezetés előtt / közben.",
+    "Category": "Közlekedési Szabálysértés"
+  },
+  {
+    "Paragraph": "19§",
     "Name": "Járművezetés Eltiltás Hatálya Alatt",
     "MinTicket": 25000,
     "MaxTicket": 50000,
@@ -265,13 +276,34 @@
     "Category": "Közlekedési Szabálysértés"
   },
   {
-    "Paragraph": "19§",
+    "Paragraph": "20§",
+    "Name": "Helytelen Járműabroncs Használata",
+    "MinTicket": 25000,
+    "MaxTicket": 50000,
+    "MinJail": 0,
+    "MaxJail": 0,
+    "ID": "HJH",
+    "Desc": "Téli abroncsot November 1 és Április 30 között kell használni. A négyévszakos mindig elfogadott.",
+    "Category": "Közlekedési Szabálysértés"
+  },
+  {
+    "Paragraph": "21§",
+    "Name": "Közlekedési Korlátozás Megszegése",
+    "MinTicket": 300000,
+    "MaxTicket": 1000000,
+    "MinJail": 0,
+    "MaxJail": 0,
+    "ID": "KKM",
+    "Category": "Közlekedési Szabálysértés"
+  },
+  {
+    "Paragraph": "22§",
     "Name": "Gyorshajtás Lakott Területen (50km/h)",
     "Desc": "Ez egy főkategória, aminek az alkategóriáit bünteted.",
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "19.1§",
+    "Paragraph": "22.1§",
     "Name": "25% (65km/h)",
     "MinTicket": 5000,
     "MaxTicket": 15000,
@@ -281,7 +313,7 @@
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "19.2§",
+    "Paragraph": "22.2§",
     "Name": "100% (100km/h)",
     "MinTicket": 7000,
     "MaxTicket": 17000,
@@ -291,7 +323,7 @@
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "19.3§",
+    "Paragraph": "22.3§",
     "Name": "200% (150km/h)",
     "MinTicket": 10000,
     "MaxTicket": 20000,
@@ -302,7 +334,7 @@
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "19.4§",
+    "Paragraph": "22.4§",
     "Name": "300% (200km/h)",
     "MinTicket": 15000,
     "MaxTicket": 25000,
@@ -313,13 +345,13 @@
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "20§",
+    "Paragraph": "23§",
     "Name": "Gyorshajtás Országúton (90km/h)",
     "Desc": "Ez egy főkategória, aminek az alkategóriáit bünteted.",
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "20.1§",
+    "Paragraph": "23.1§",
     "Name": "25% (110km/h)",
     "MinTicket": 5000,
     "MaxTicket": 15000,
@@ -329,7 +361,7 @@
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "20.2§",
+    "Paragraph": "23.2§",
     "Name": "50% (135km/h)",
     "MinTicket": 7000,
     "MaxTicket": 17000,
@@ -339,7 +371,7 @@
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "20.3§",
+    "Paragraph": "23.3§",
     "Name": "100% (180km/h)",
     "MinTicket": 10000,
     "MaxTicket": 20000,
@@ -350,7 +382,7 @@
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "20.4§",
+    "Paragraph": "23.4§",
     "Name": "200% (270km/h)",
     "MinTicket": 17000,
     "MaxTicket": 27500,
@@ -361,13 +393,13 @@
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "21§",
+    "Paragraph": "24§",
     "Name": "Gyorshajtás Autópályán (120km/h)",
     "Desc": "Ez egy főkategória, aminek az alkategóriáit bünteted.",
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "21.1§",
+    "Paragraph": "24.1§",
     "Name": "25% (130km/h)",
     "MinTicket": 5000,
     "MaxTicket": 15000,
@@ -377,7 +409,7 @@
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "21.2§",
+    "Paragraph": "24.2§",
     "Name": "50% (180km/h)",
     "MinTicket": 8000,
     "MaxTicket": 18000,
@@ -387,7 +419,7 @@
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "21.3§",
+    "Paragraph": "24.3§",
     "Name": "100% (240km/h)",
     "MinTicket": 12000,
     "MaxTicket": 22000,
@@ -398,7 +430,7 @@
     "Category": "Megengedett Sebesség Túllépése"
   },
   {
-    "Paragraph": "21.4§",
+    "Paragraph": "24.4§",
     "Name": "150% (300km/h)",
     "MinTicket": 20000,
     "MaxTicket": 30000,
