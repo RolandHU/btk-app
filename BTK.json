@@ -283,7 +283,7 @@
     "MinJail": 0,
     "MaxJail": 0,
     "ID": "HJH",
-    "Desc": "Téli abroncsot November 1 és Április 30 között kell használni. A négyévszakos mindig elfogadott.",
+    "Desc": "Téli abroncsot November 1 és Április 30 között kell használni. A négyévszakos mindig elfogadott. A jármű lefoglalható.",
     "Category": "Közlekedési Szabálysértés"
   },
   {
@@ -294,6 +294,7 @@
     "MinJail": 0,
     "MaxJail": 0,
     "ID": "KKM",
+    "Desc": "Aki a kormányrendeletekben meghatározott közlekedési korlátozásokat megszegi.",
     "Category": "Közlekedési Szabálysértés"
   },
   {
